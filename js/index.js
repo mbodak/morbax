@@ -12,6 +12,8 @@ function openAssesment() {
     document.getElementById('profileButt').style.borderColor = '#59068a';
     document.getElementById('profileButt').style.backgroundColor = '#59068a';
     document.getElementById('profileButtA').style.color = 'white';
+
+    document.getElementById('editButt').style.display = 'none';
 }
 
 function openProfile() {
@@ -24,5 +26,7 @@ function openProfile() {
     document.getElementById('assesmentButt').style.borderColor = '#59068a';
     document.getElementById('assesmentButt').style.backgroundColor = '#59068a';
     document.getElementById('assesmentButtA').style.color = 'white';
+
+    document.getElementById('editButt').style.display = 'inline-block';
 }
 
