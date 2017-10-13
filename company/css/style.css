@@ -1,0 +1,521 @@
+html,
+body {
+    background: white;
+}
+
+button:active, button:focus {
+    outline: none;
+}
+
+button::-moz-focus-inner {
+    border: 0;
+}
+
+h3 {
+    font-weight: 300;
+    color: black;
+}
+
+.avatar {
+    width: 135px;
+}
+
+.star {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+}
+
+.icons {
+    display: flex;
+}
+
+.color-purple {
+    color: #9400D3;
+}
+
+.b-1, .b-2 {
+    float: right;
+    height: 40px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.b-1 {
+    width: 80px;
+}
+
+.b-2 {
+    width: 200px;
+    margin-top: 20px;
+    background-color: #3050c7;
+}
+
+.inden {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.left-side {
+    max-width: 180px;
+    min-width: 80px;
+    border: 1px solid white;
+    box-shadow: 7px 1px 31px 9px lightgrey;
+    text-align: left;
+    border-radius: 4px;
+    line-height: 1.2;
+    padding: 7px;
+    float: left;
+    margin-top: 0;
+}
+
+.progres {
+    padding-top: 13px;
+}
+
+.circle {
+    margin-top: -15px;
+}
+
+.horisont {
+    height: 35px;
+    width: 120px;
+    border: 1px solid white;
+    box-shadow: 7px 1px 31px 9px lightgrey;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.fa-circle {
+    margin-left: 30px;
+    color: green;
+}
+
+.resume {
+    float: right;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.foo {
+    height: 30px;
+    width: 85px;
+    padding-top: 2px;
+    margin-right: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.a {
+    background-color: grey;
+    border-color: grey;
+    color: white;
+}
+
+.char {
+    border: 1px solid;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+}
+
+/*Style for top social buttons*/
+.col-md-12 > i {
+    padding: 4px;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.col-md-12 > i:hover {
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+/*Style for bottom social buttons*/
+.socialNetworks {
+    margin-top: 40px;
+}
+
+.socialNetworks > i {
+    font-size: 150px;
+    padding: 4px;
+    cursor: pointer;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.socialNetworks > i:hover {
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+/*Assesment & Profile Buttons*/
+.twoButtons {
+    margin-bottom: 35px;
+}
+
+.twoButtons button {
+    width: 230px;
+    height: 80px;
+    font-size: 30px;
+    background-color: white;
+    border-bottom: none;
+    border-radius: 6px 6px 0 0;
+}
+
+.twoButtons #assesmentButt {
+    border-color: lightgrey;
+    color: #7F007F;
+}
+
+.twoButtons #profileButt {
+    background-color: #59068a;
+    border-color: #59068a;
+}
+
+.twoButtons #profileButt > a {
+    color: white;
+}
+
+.twoButtons > button > a {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: 0;
+    text-decoration: none;
+    font-family: "Open Sans", Arial, sans-serif;
+    color: #777;
+}
+
+#editButt {
+    float: right;
+    width: 110px;
+    height: 78px;
+    border-style: solid;
+    border-radius: 6px;
+    border-color: lightgrey;
+    box-shadow: 4px 4px 10px #888888;
+}
+
+.mainInformation > div {
+    display: inline-block;
+}
+
+
+/*Profile block*/
+#profile .row > div > i {
+    width: 100%;
+    margin-bottom: 7px;
+}
+
+#profile .span1, #profile .span2 {
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 13px;
+    line-height: 22px;
+}
+
+#profile .span2 > span {
+    width: auto;
+    height: auto;
+    background: lightgrey;
+    padding: 2px;
+    margin-right: 6px;
+    border-radius: 4px;
+}
+
+#profile .span1 {
+    color: #6c6c6c;
+}
+
+#profile .span2 {
+    color: #0a0a0a;
+}
+
+.informationFields {
+    margin-top: 40px;
+}
+
+.informationFields > div {
+    margin-bottom: 30px;
+}
+
+.informationFields > div > label {
+    color: #0a0a0a;
+    font-size: 20px;
+}
+
+.contacts {
+    background: lightgrey;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px 4px 4px 4px;
+}
+
+.contacts #spanContacts, .location #spanLocation {
+    margin-top: 15px;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 13px;
+    color: #0a0a0a;
+}
+
+.contacts .rows {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.location {
+    margin-top: 20px;
+}
+
+.rowsLoc {
+    margin-left: 2px;
+}
+
+.mini-icons {
+    padding-top: 10px;
+}
+
+
+
+/*circle progress bar*/
+#ChartistCSSAnimation .ct-series.ct-series-a .ct-line {
+    fill: none;
+    stroke-width: 4px;
+    stroke-dasharray: 5px;
+    -webkit-animation: dashoffset 1s linear infinite;
+    -moz-animation: dashoffset 1s linear infinite;
+    animation: dashoffset 1s linear infinite;
+}
+
+#ChartistCSSAnimation .ct-series.ct-series-b .ct-point {
+    -webkit-animation: bouncing-stroke 0.5s ease infinite;
+    -moz-animation: bouncing-stroke 0.5s ease infinite;
+    animation: bouncing-stroke 0.5s ease infinite;
+}
+
+#ChartistCSSAnimation .ct-series.ct-series-b .ct-line {
+    fill: none;
+    stroke-width: 3px;
+}
+
+#ChartistCSSAnimation .ct-series.ct-series-c .ct-point {
+    -webkit-animation: exploding-stroke 1s ease-out infinite;
+    -moz-animation: exploding-stroke 1s ease-out infinite;
+    animation: exploding-stroke 1s ease-out infinite;
+}
+
+#ChartistCSSAnimation .ct-series.ct-series-c .ct-line {
+    fill: none;
+    stroke-width: 2px;
+    stroke-dasharray: 40px 3px;
+}
+
+@-webkit-keyframes dashoffset {
+    0% {
+        stroke-dashoffset: 0px;
+    }
+    100% {
+        stroke-dashoffset: -20px;
+    }
+}
+
+@-moz-keyframes dashoffset {
+    0% {
+        stroke-dashoffset: 0px;
+    }
+    100% {
+        stroke-dashoffset: -20px;
+    }
+}
+@keyframes dashoffset {
+    0% {
+        stroke-dashoffset: 0px;
+    }
+    100% {
+        stroke-dashoffset: -20px;
+    }
+}
+
+@-webkit-keyframes bouncing-stroke {
+    0% {
+        stroke-width: 5px;
+    }
+    50% {
+        stroke-width: 10px;
+    }
+    100% {
+        stroke-width: 5px;
+    }
+}
+
+@-moz-keyframes bouncing-stroke {
+    0% {
+        stroke-width: 5px;
+    }
+    50% {
+        stroke-width: 10px;
+    }
+    100% {
+        stroke-width: 5px;
+    }
+}
+
+@keyframes bouncing-stroke {
+    0% {
+        stroke-width: 5px;
+    }
+    50% {
+        stroke-width: 10px;
+    }
+    100% {
+        stroke-width: 5px;
+    }
+}
+
+@-webkit-keyframes exploding-stroke {
+    0% {
+        stroke-width: 2px;
+        opacity: 1;
+    }
+    100% {
+        stroke-width: 20px;
+        opacity: 0;
+    }
+}
+
+@-moz-keyframes exploding-stroke {
+    0% {
+        stroke-width: 2px;
+        opacity: 1;
+    }
+    100% {
+        stroke-width: 20px;
+        opacity: 0;
+    }
+}
+
+@keyframes exploding-stroke {
+    0% {
+        stroke-width: 2px;
+        opacity: 1;
+    }
+    100% {
+        stroke-width: 20px;
+        opacity: 0;
+    }
+}
+
+
+
+
+/*media queries*/
+@media (max-width : 1920px) {
+    .twoButtons button {
+        width: 25%;
+        height: 4vw;
+        font-size: 120%;
+    }
+    .socialNetworks > i {
+        font-size: 5vw;
+    }
+    #editButt {
+        width: 70px;
+        height: 4vw;
+    }
+    .circular-bar {
+        margin-top: -12px;
+        margin-bottom: 15px;
+    }
+    .circular-bar label {
+        font-size: 17px;
+        top: 34%;
+        left: 28%;
+    }
+    .circular-bar canvas {
+        width: 70px;
+        height: 70px;
+    }
+}
+
+@media (max-width : 992px) {
+    .twoButtons button {
+        width: 30%;
+        height: 5vw;
+        font-size: 110%;
+    }
+    .socialNetworks > i {
+        font-size: 6vw;
+    }
+    #editButt {
+        width: 64px;
+        height: 5vw;
+    }
+    .contacts .rows {
+        flex-wrap: wrap;
+    }
+    .contacts .rows div {
+        width: 50%;
+        margin-bottom: 15px;
+    }
+    .circular-bar {
+        margin-top: -6px;
+        margin-bottom: 8px;
+    }
+    .circular-bar label {
+        font-size: 16px;
+        top: 31%;
+        left: 30%;
+    }
+    .circular-bar canvas {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+@media (max-width : 600px) {
+    .twoButtons button {
+        width: 35%;
+        height: 7vw;
+        font-size: 100%;
+    }
+    .socialNetworks > i {
+        font-size: 7vw;
+    }
+    #editButt {
+        width: 56px;
+        height: 7vw;
+    }
+    .left-side {
+        font-size: 10px;
+    }
+    .circular-bar-col {
+        padding-left: 0;
+    }
+    .circular-bar {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .circular-bar label {
+        font-size: 14px;
+        top: 16px;
+        left: 30%;
+    }
+    .circular-bar canvas {
+        width: 50px;
+        height: 50px;
+    }
+}

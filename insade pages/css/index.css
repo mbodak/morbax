@@ -1,0 +1,50 @@
+.panel-body {
+    padding: 15px;
+    max-width: 1300px;
+    display: block;
+    margin: auto;
+}
+
+.sidebar-left {
+    background: url('../images/bg1.png');
+}
+
+.page-header {
+    background-color: white;
+}
+
+@media only screen and (min-width: 768px) {
+    html.sidebar-left-collapsed .sidebar-left .nano {
+        background: url('../images/bg1.png');
+        box-shadow: none;
+    }
+}
+
+.form-control {
+    border: none;
+}
+
+notifications>li .notification-icon i {
+    color: #9768cc;
+}
+
+.fa-search {
+    color: #9768cc;
+}
+
+.left-side-header {
+    color: #9768cc;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    float: left;
+    font-size: 16px;
+    line-height: 50px;
+    padding: 0 22px 0 20px;
+}
+
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+}

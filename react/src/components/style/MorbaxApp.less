@@ -1,0 +1,201 @@
+// Header
+.header-app {
+    border-bottom: 1px solid #EDEDED;
+
+    .app-brand {
+        .logo-img {
+            margin-top: 13px;
+            width: 150px;
+        }
+    }
+    .app-search {
+        margin-top: 13px;
+
+        .fa {
+            position: absolute;
+            margin-left: 10px;
+            margin-top: 17px;
+            color: rgb(217, 183, 255);
+        }
+        input {
+            margin-top: 7px;
+            padding: 5px;
+            padding-left: 30px;
+            border-radius: 20px;
+            border: none;
+
+            &:focus {
+                outline: none;
+                box-shadow: 0 0 0 1pt rgb(217, 183, 255);
+            }
+            &::placeholder {
+                color: rgb(217, 183, 255);
+            }
+        }
+    }
+    .user-notification {
+        display: inline;
+
+        .nav-item {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: rgb(217, 183, 255);
+            margin-right: 5px;
+            cursor: pointer;
+
+            .fa {
+                color: white;
+                margin-top: 5px;
+                margin-left: 7px;
+            }
+        }
+    }
+    .user-panel {
+        margin-top: 13px;
+    }
+    .user-info {
+        display: inline;
+
+        img {
+            width: 50px;
+            border-radius: 50%;
+            margin-left: 5px;
+            box-shadow: 7px -6px 16px -11px rgba(0,0,0,0.81);
+        }
+        .user-p {
+            display: inline-block;
+            margin-left: 5px;
+            margin-top: 5px;
+            position: absolute;
+
+            .user-name {
+                font-size: 14px;
+                font-family: 'Open Sans', sans-serif;
+                color: rgb(51, 51, 51);
+                line-height: 1.2;
+                margin-bottom: 5px;
+            }
+            .user-position {
+                font-size: 14px;
+                font-family: 'Open Sans', sans-serif;
+                color: #AFAFAF;
+                line-height: 1.2;
+                margin-top: 0;
+            }
+        }
+    }
+}
+
+.navbar-app {
+    .sidenav {
+        height: 100%;
+        width: 70px;
+        z-index: 1;
+        left: 0;
+        background-image: url("../../../public/images/MorbaxBackground.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        transition: 0.5s;
+    }
+
+    .sidenav a {
+        width: 100%;
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+
+    .sidenav a:hover {
+        color: #f1f1f1;
+        background-color: rgba(50, 40, 93, 0.8);
+    }
+    .nav-btn {
+        padding-left: 18px;
+        cursor: pointer;
+        width: 50px;
+        height: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        border-radius: 7px;
+    }
+    .nav-img-btn {
+
+        width: 25px;
+        height: 2px;
+        background-color: #fff;
+        display: block;
+        position: relative;
+        transition: background-color 0.25s;
+
+        &::after, &::before {
+            content: "";
+            display: block;
+            position: absolute;
+            width: 25px;
+            height: 2px;
+            background-color: #fff;
+            transition: top 0.25s, transform 0.35s;
+        }
+        &::after {
+            top: 10px;
+            left: 0;
+        }
+        &::before {
+            top: -10px;
+            left: 0;
+        }
+    }
+    .close-btn {
+        .nav-img-btn {
+            background-color: transparent;
+
+            &::after {
+                top: 0;
+                transform: rotateZ(45deg);
+            }
+            &::before {
+                top: 0;
+                transform: rotateZ(-45deg);
+            }
+        }
+    }
+    .closebtn {
+        position: relative;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+
+    #main {
+        transition: margin-left .5s;
+        padding: 16px;
+    }
+
+    @media screen and (max-height: 450px) {
+      .sidenav {padding-top: 15px;}
+      .sidenav a {font-size: 18px;}
+    }
+    .nav li {
+        width: 100%;
+    }
+    .nav li span {
+        display: none;
+        font-size: 13px;
+        font-family: 'Open Sans', sans-serif;
+        line-height: 1.2;
+    }
+    .nav li i {
+        width: 17px;
+        display: inline-block;
+        margin-right: 5px;
+        font-size: 13px;
+    }
+}

@@ -1,0 +1,350 @@
+.company {
+
+    button:active, button:focus {
+        outline: none;
+    }
+
+    button::-moz-focus-inner {
+        border: 0;
+    }
+
+
+    .header {
+        background: none;
+        border: none;
+        height: 60px;
+        position: static;
+        border-bottom: 1px solid lightgrey;
+        border-top: 1px solid lightgrey;
+
+        & > div, div a {
+            color: #9400D3;
+            outline: none;
+            text-decoration: none;
+        }
+
+        .header-right {
+            float: right;
+        }
+        div {
+            display: inline-block;
+            margin-top: 15px;
+        }
+
+    }
+
+    .company-body {
+        //Tmp style for star-img
+        .star {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 50%;
+        }
+
+        //Color for icons
+        .fa-twitter, .fa-twitter-square {
+          color: #00aced;
+        }
+        .fa-linkedin-square {
+          color: #0077b5;
+        }
+        .fa-github {
+          color: black;
+        }
+        .fa-facebook-square {
+          color: #3b5998;
+        }
+        .fa-google-plus-square {
+          color: #F44336;
+        }
+        .fa-youtube-square {
+          color: #cc181e;
+        }
+        .fa-instagram {
+          color: #7F007F;
+        }
+
+        /*Assesment & Profile Buttons*/
+        .company-tabs {
+            margin-bottom: 35px;
+            margin-top: 20px;
+            border: none;
+            background-color: white;
+            border-radius: 10px 10px 0 0;
+            width: 412px;
+
+            & > a {
+                margin-right: 6px;
+                width: 200px;
+                color: white;
+                background-color: #59068a;
+                text-align: center;
+            }
+            .nav-link.active {
+                color:#777;
+                background-color: #fff;
+                border-color: lightgrey;
+                border-bottom: none;
+            }
+        }
+
+        /*Progress bars block*/
+        .company-progress-bars {
+            .progress-bar-1 {
+              width: 80%;
+              background-color: #0fbfa5;
+            }
+            .progress-bar-2 {
+              width: 72%;
+              background-color: #188ea1;
+            }
+            .progress-bar-3 {
+              width: 80%;
+              background-color:#403e94;
+            }
+            .progress-bar-4 {
+              width:68%;
+              background-color:#59068a;
+            }
+            .inden {
+                margin-top: 15px;
+                margin-bottom: 15px;
+                height: 80px;
+            }
+            & > div {
+                margin: auto;
+            }
+            .left-side {
+                max-width: 180px;
+                min-width: 80px;
+                border: 1px solid white;
+                box-shadow: 7px 1px 31px 9px lightgrey;
+                text-align: left;
+                border-radius: 4px;
+                line-height: 1.2;
+                padding: 7px;
+                float: left;
+                margin-top: 0;
+            }
+            .circular-bar canvas {
+                width: 80px;
+                float: right;
+            }
+            .circular-bar label {
+                font-size: 14px;
+                margin: 0 auto;
+                position: absolute;
+                top: 30%;
+                left: 65%;
+            }
+        }
+
+        /*Profile block*/
+        #company-profile {
+            .row > div > i {
+                width: 100%;
+                margin-bottom: 7px;
+            }
+            .span1, .span2 {
+                font-family: "Open Sans", Arial, sans-serif;
+                font-size: 13px;
+                line-height: 22px;
+            }
+            .span2 > span {
+                width: auto;
+                height: auto;
+                background: lightgrey;
+                padding: 2px;
+                margin-right: 6px;
+                border-radius: 4px;
+            }
+            .span1 {
+                color: #6c6c6c;
+            }
+            .span2 {
+                color: #0a0a0a;
+            }
+
+            .company-information-fields {
+                margin-top: 40px;
+
+                & > div {
+                    margin-bottom: 30px;
+                }
+                & > div > label {
+                    color: #0a0a0a;
+                    font-size: 20px;
+                }
+            }
+
+            .company-contacts {
+                background: lightgrey;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                border-radius: 4px 4px 4px 4px;
+
+                & > div > div {
+                    padding-left: 34px;
+                }
+
+                #spanContacts {
+                    margin-top: 15px;
+                    font-family: "Open Sans", Arial, sans-serif;
+                    font-size: 13px;
+                    color: #0a0a0a;
+                }
+            }
+
+            .company-location {
+                margin-top: 20px;
+
+                .company-rows-location {
+                    margin-left: 2px;
+                }
+                #spanLocation {
+                    margin-top: 15px;
+                    font-family: "Open Sans", Arial, sans-serif;
+                    font-size: 13px;
+                    color: #0a0a0a;
+                }
+            }
+        }
+        .icons-list {
+          .fa {
+            color: #59068a;
+          }
+        }
+        .mini-icons {
+          padding-top: 10px;
+
+          .fa {
+            color: #59068a;
+          }
+        }
+        /*Style for social buttons*/
+        .mini-social-butt {
+            & > i {
+                padding: 4px;
+                cursor: pointer;
+                -webkit-transition: all .5s;
+                -moz-transition: all .5s;
+                -o-transition: all .5s;
+                transition: all .5s;
+            }
+            & > i:hover {
+                -ms-transform: scale(1.2);
+                -moz-transform: scale(1.2);
+                -webkit-transform: scale(1.2);
+                -o-transform: scale(1.2);
+                transform: scale(1.2);
+            }
+        }
+
+        .company-social-networks {
+            margin-top: 40px;
+            margin-bottom: 20px;
+
+            & > i {
+                font-size: 100px;
+                padding: 4px;
+                cursor: pointer;
+                -webkit-transition: all .5s;
+                -moz-transition: all .5s;
+                -o-transition: all .5s;
+                transition: all .5s;
+            }
+            & > i:hover {
+                -ms-transform: scale(1.2);
+                -moz-transform: scale(1.2);
+                -webkit-transform: scale(1.2);
+                -o-transform: scale(1.2);
+                transform: scale(1.2);
+            }
+        }
+
+        #editButt {
+            float: right;
+            width: 110px;
+            height: 78px;
+            border-style: solid;
+            border-radius: 6px;
+            border-color: lightgrey;
+            box-shadow: 3px 6px 14px 1px lightgrey;
+        }
+
+
+        /*media queries*/
+        @media (max-width : 1920px) {
+            .company-social-networks > i {
+                font-size: 4vw;
+            }
+            #editButt {
+                width: 70px;
+                height: 4vw;
+            }
+            .circular-bar label {
+                font-size: 17px;
+                left: 60%;
+            }
+            .circular-bar canvas {
+                width: 70px;
+            }
+        }
+
+        @media (max-width : 992px) {
+            .twoButtons button {
+                width: 30%;
+                height: 5vw;
+                font-size: 110%;
+            }
+            .company-social-networks > i {
+                font-size: 5vw;
+            }
+            #editButt {
+                width: 64px;
+                height: 5vw;
+            }
+            .company-contacts .rows div {
+                width: 50%;
+                margin-bottom: 15px;
+            }
+            .circular-bar label {
+                font-size: 16px;
+                left: 50%;
+            }
+            .circular-bar canvas {
+                width: 60px;
+            }
+        }
+
+        @media (max-width : 600px) {
+            .company-tabs {
+                width: 240px;
+            }
+            .company-tabs > a {
+                width: 110px;
+            }
+            .company-social-networks > i {
+                font-size: 30px;
+            }
+            #editButt {
+                width: 56px;
+                height: 7vw;
+            }
+            .left-side {
+                font-size: 10px;
+            }
+            .circular-bar-col {
+                padding-left: 0;
+            }
+            .circular-bar label {
+                font-size: 14px;
+            }
+            .circular-bar canvas {
+                width: 50px;
+            }
+        }
+
+    } //end company-body
+}

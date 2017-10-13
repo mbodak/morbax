@@ -1,0 +1,543 @@
+<!doctype html>
+<html class="fixed">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Morbax</title>
+    <meta name="keywords" content="HTML5 Admin Template" />
+
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <!-- Web Fonts  -->
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Shadows+Into+Light" rel="stylesheet" type="text/css">
+
+    <!-- Vendor CSS -->
+    <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="assets/vendor/font-awesome/css/font-awesome.css" />
+    <link rel="stylesheet" href="assets/vendor/magnific-popup/magnific-popup.css" />
+    <link rel="stylesheet" href="assets/vendor/bootstrap-datepicker/css/datepicker3.css" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--Theme CSS-->
+    <link rel="stylesheet" href="assets/stylesheets/theme.css" />
+
+    <!-- Skin CSS -->
+    <link rel="stylesheet" href="assets/stylesheets/skins/default.css" />
+
+    <!-- Head Libs -->
+    <script src="assets/vendor/modernizr/modernizr.js"></script>
+
+    <!--style files-->
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/company.css" />
+    <link rel="stylesheet" href="css/candidates.css" />
+
+
+
+</head>
+
+<body>
+<section class="body">
+
+    <!-- start: header -->
+    <header class="header">
+
+        <div class="logo-container">
+            <a href="" class="logo">
+                <img src="images/logo.png" height="35" alt="Morbax"/>
+            </a>
+            <div class="visible-xs toggle-sidebar-left" data-toggle-class="sidebar-left-opened" data-target="html" data-fire-event="sidebar-left-opened">
+                <i class="fa fa-bars" aria-label="Toggle sidebar"></i>
+            </div>
+        </div>
+
+    <!-- start: search & user box -->
+        <div class="header-right">
+
+            <form action="pages-search-results.html" class="search nav-form">
+                <div class="input-group input-search">
+                    <input type="text" class="form-control" name="q" id="q" placeholder="Search...">
+                    <span class="input-group-btn">
+                            <button class="btn btn-default" type="submit">
+                                <i class="fa fa-search"></i>
+                            </button>
+                        </span>
+                </div>
+            </form>
+
+            <span class="separator"></span>
+
+            <ul class="notifications">
+                <li>
+                    <a href="#" class="dropdown-toggle notification-icon" data-toggle="dropdown">
+                        <i class="fa fa-envelope"></i>
+                        <!-- <span class="badge">4</span> -->
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="dropdown-toggle notification-icon" data-toggle="dropdown">
+                        <i class="fa fa-bell"></i>
+                    </a>
+                </li>
+            </ul>
+
+            <span class="separator"></span>
+
+            <div id="userbox" class="userbox">
+                <a href="#" data-toggle="dropdown">
+                    <figure class="profile-picture">
+                        <img src="images/hr.jpg" alt="" class="img-circle" data-lock-picture="images/photo2.jpg" />
+                    </figure>
+                    <div class="profile-info" data-lock-name="Jennifer Aniston" data-lock-email="">
+                        <span class="name">Jennifer Aniston</span>
+                        <span class="role">HR</span>
+                    </div>
+                    <i class="fa custom-caret"></i>
+                </a>
+
+                <div class="dropdown-menu">
+                    <ul class="list-unstyled">
+                        <li class="divider"></li>
+                        <li>
+                            <a role="menuitem" tabindex="-1" href=""><i class="fa fa-user"></i> My Profile</a>
+                        </li>
+                        <li>
+                            <a role="menuitem" tabindex="-1" href="#" data-lock-screen="true"><i class="fa fa-lock"></i> Lock Screen</a>
+                        </li>
+                        <li>
+                            <a role="menuitem" tabindex="-1" href="autorize/sign_in_user.html"><i class="fa fa-power-off"></i> Logout</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- end: search & user box -->
+    </header>
+    <!-- end: header -->
+
+    <div class="inner-wrapper">
+        <!-- start: sidebar -->
+        <aside id="sidebar-left" class="sidebar-left">
+
+            <div class="sidebar-header">
+                <div class="sidebar-toggle hidden-xs" data-toggle-class="sidebar-left-collapsed" data-target="html" data-fire-event="sidebar-left-toggle">
+                    <i class="fa fa-bars" aria-label="Toggle sidebar"></i>
+                </div>
+            </div>
+
+            <div class="nano">
+                <div class="nano-content">
+                    <nav id="menu" class="nav-main" role="navigation">
+                        <ul class="nav nav-main">
+                            <li>
+                                <a href="dashboard2.html">
+                                    <!-- <span class="pull-right label label-primary">18</span> -->
+                                    <i class="fa fa-home" aria-hidden="true"></i>
+                                    <span>Dashboard</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="company.html">
+                                    <i class="fa fa-briefcase" aria-hidden="true"></i>
+                                    <span>Company</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="employees.html">
+                                    <i class="fa fa-user" aria-hidden="true"></i>
+                                    <span>Employees</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="vacancies.html">
+                                    <i class="fa fa-clipboard" aria-hidden="true"></i>
+                                    <span>Vacancies</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="candidates.html">
+                                    <i class="fa fa-users" aria-hidden="true"></i>
+                                    <span>Candidates</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="hr_brand.html">
+                                    <i class="fa fa-handshake-o" aria-hidden="true"></i>
+                                    <span>HR brand</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="hr_bot.html">
+                                    <i class="fa fa-android" aria-hidden="true"></i>
+                                    <span>HR bot</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fa fa-bar-chart" aria-hidden="true"></i>
+                                    <span>Statistics</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="pricing.html">
+                                    <i class="fa fa-money" aria-hidden="true"></i>
+                                    <span>Pricing</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fa fa-headphones" aria-hidden="true"></i>
+                                    <span>Support</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fa fa-question-circle" aria-hidden="true"></i>
+                                    <span>FAQ</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </aside>
+
+        <!-- end: sidebar -->
+        <section role="main" class="content-body ">
+            <header class="page-header ">
+                <div class="left-side-header">
+                    <i class="fa fa-users" aria-hidden="true"></i>
+                    <span>&nbsp;&nbsp;Senior UX designer</span>
+                </div>
+                <div class="right-wrapper pull-right ">
+                    <ol class="breadcrumbs ">
+                        <li>
+                            <a href="dashboard2.html">
+                                <i class="fa fa-home"></i>
+                            </a>
+                        </li>
+                        <li><span><strong>Candidates</strong></span></li>
+                    </ol>
+                </div>
+            </header>
+
+            <!--start body-->
+            <section class="panel">
+                <div class="panel-body">
+
+                    <!--Candidates Page-->
+                    <div id="Candidates">
+
+                        <!--1.Top buttons-->
+                        <div class="twoButtons candidates-buttons">
+
+                            <button id="candidates-edit-button" style="float: left">
+                                <a href="#">
+                                    <i class="fa fa-pencil" aria-hidden="true">&nbsp;&nbsp;Edit</i>
+                                </a>
+                            </button>
+
+                            <button id="candidates-view-resume-butt" onclick="">
+                                <a href="#">
+                                    <i class="fa fa-eye" aria-hidden="true">&nbsp;&nbsp;View resume</i>
+                                </a>
+                            </button>
+
+                            <button id="candidates-invite-butt" onclick="" style="float: right">
+                                <a href="#">
+                                    <i class="fa fa-plus-square-o" aria-hidden="true">&nbsp;&nbsp;Invite for an interview</i>
+                                </a>
+                            </button>
+                        </div>
+
+                        <!--2.Candidates card-->
+                        <div>
+                            <div class="candidate-photo">
+
+                            </div>
+
+                            <div class="candidate-information">
+
+                            </div>
+
+                            <div class="candidate-progress">
+                                <div class="circular-bar">
+                                    <div class="circular-bar-chart" data-percent="80" data-plugin-options='{ "barColor": "#403e94", "delay": 10 }'>
+                                        <label><span class="percent">80</span>%</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="candidate-star">
+
+                            </div>
+
+                        </div>
+
+                        <!--3.Graphic-->
+                        <div>
+                            <img class="star" src="images/star.jpg" />
+                        </div>
+
+                        <!--4.Networks buttons-->
+                        <div class="row">
+                            <div class="col-md-12 mini-social-butt">
+                                <i class="fa fa-twitter fa-2x" aria-hidden="true" style="color: #00aced"></i>
+                                <i class="fa fa-linkedin-square fa-2x" aria-hidden="true" style="color: #0077b5"></i>
+                                <i class="fa fa-github fa-2x" aria-hidden="true" style="color: black"></i>
+                                <i class="fa fa-facebook-square fa-2x" aria-hidden="true" style="color: #3b5998"></i>
+                                <label> <strong>CONFIRMED</strong></label>
+                            </div>
+                        </div>
+
+                        <!--5.Progress bars-->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="row inden">
+
+                                    <div class="col-xs-3 col-xm-3 col-md-3">
+                                        <div class="left-side">Match for an ideal candidate</div>
+                                    </div>
+
+                                    <div class="col-xs-7 col-xm-7 col-md-7">
+                                        <div class="progress light m-md">
+                                            <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="68" aria-valuemin="0" aria-valuemax="100" style="width: 68%;background-color: #0fbfa5"></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xs-2 col-xm-2 col-md-2 circular-bar-col">
+                                        <div class="circular-bar">
+                                            <div class="circular-bar-chart" data-percent="68" data-plugin-options='{ "barColor": "#0fbfa5", "delay": 10 }'>
+                                                <label><span class="percent">68</span>%</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row inden">
+                                    <div class="col-xs-3 col-xm-3 col-md-3">
+                                        <div class="left-side">Corporate culture of company</div>
+                                    </div>
+
+                                    <div class="col-xs-7 col-xm-7 col-md-7">
+                                        <div class="progress light m-md">
+                                            <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 72%;background-color:#188ea1">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xs-2 col-xm-2 col-md-2 circular-bar-col">
+                                        <div class="circular-bar">
+                                            <div class="circular-bar-chart" data-percent="80" data-plugin-options='{ "barColor": "#188ea1", "delay": 10 }'>
+                                                <label><span class="percent">80</span>%</label>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="row inden">
+                                    <div class="col-xs-3 col-xm-3 col-md-3">
+                                        <div class="left-side">Adaptation with employees</div>
+                                    </div>
+
+                                    <div class="col-xs-7 col-xm-7 col-md-7">
+                                        <div class="progress light m-md">
+                                            <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="72" aria-valuemin="0" aria-valuemax="100" style="width: 72%;background-color:#403e94">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xs-2 col-xm-2 col-md-2 circular-bar-col">
+                                        <div class="circular-bar">
+                                            <div class="circular-bar-chart" data-percent="72" data-plugin-options='{ "barColor": "#403e94", "delay": 10 }'>
+                                                <label><span class="percent">72</span>%</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row inden">
+                                    <div class="col-xs-3 col-xm-3 col-md-3">
+                                        <div class="left-side">Learning and self-development</div>
+                                    </div>
+
+                                    <div class="col-xs-7 col-xm-7 col-md-7">
+                                        <div class="progress light m-md">
+                                            <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%;background-color:#59068a">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xs-2 col-xm-2 col-md-2 circular-bar-col">
+                                        <div class="circular-bar">
+                                            <div class="circular-bar-chart" data-percent="80" data-plugin-options='{ "barColor": "#59068a", "delay": 10 }'>
+                                                <label><span class="percent">80</span>%</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row inden">
+
+                                    <div class="col-xs-3 col-xm-3 col-md-3">
+                                        <div class="left-side">Corporate culture of company</div>
+                                    </div>
+
+                                    <div class="col-xs-7 col-xm-7 col-md-7">
+                                        <div class="progress light m-md">
+                                            <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;background-color: #0fbfa5"></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xs-2 col-xm-2 col-md-2 circular-bar-col">
+                                        <div class="circular-bar">
+                                            <div class="circular-bar-chart" data-percent="80" data-plugin-options='{ "barColor": "#0fbfa5", "delay": 10 }'>
+                                                <label><span class="percent">80</span>%</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row inden">
+
+                                    <div class="col-xs-3 col-xm-3 col-md-3">
+                                        <div class="left-side">Corporate culture of company</div>
+                                    </div>
+
+                                    <div class="col-xs-7 col-xm-7 col-md-7">
+                                        <div class="progress light m-md">
+                                            <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;background-color: #59068a"></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xs-2 col-xm-2 col-md-2 circular-bar-col">
+                                        <div class="circular-bar">
+                                            <div class="circular-bar-chart" data-percent="80" data-plugin-options='{ "barColor": "#59068a", "delay": 10 }'>
+                                                <label><span class="percent">80</span>%</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row inden">
+
+                                    <div class="col-xs-3 col-xm-3 col-md-3">
+                                        <div class="left-side">Corporate culture of company</div>
+                                    </div>
+
+                                    <div class="col-xs-7 col-xm-7 col-md-7">
+                                        <div class="progress light m-md">
+                                            <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;background-color: #403e94"></div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-xs-2 col-xm-2 col-md-2 circular-bar-col">
+                                        <div class="circular-bar">
+                                            <div class="circular-bar-chart" data-percent="80" data-plugin-options='{ "barColor": "#403e94", "delay": 10 }'>
+                                                <label><span class="percent">80</span>%</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--Progress bars end-->
+
+
+                                <div class="row candidates-bottom-block">
+                                    <!--6.Skills block-->
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="candidates-skills">
+                                                <label>Skills</label>
+                                                <div>
+                                                    <i class="fa fa-file-text-o" aria-hidden="true"></i>
+                                                    <i class="fa fa-linkedin-square" aria-hidden="true" style="color: #0077b5"></i>
+                                                    <label><strong>CONFIRMED</strong></label>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-12">
+                                            <div class="candidates-skills-list">
+                                                <div>Logo design</div>
+                                                <div>UX-UI</div>
+                                                <div>Interactive prototypes</div>
+                                                <div>Sketch</div>
+                                                <div>Agile</div>
+                                                <div>Web programming</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!--7.Personal qualities-->
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="candidates-personal-qualities">
+                                                <label>Personal qualities</label>
+                                                <div>
+                                                    <i class="fa fa-twitter" aria-hidden="true" style="color: #00aced"></i>
+                                                    <i class="fa fa-linkedin-square" aria-hidden="true" style="color: #0077b5"></i>
+                                                    <label><strong>CONFIRMED</strong></label>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-12">
+                                            <div class="candidates-qualities-list">
+                                                <div>Problem solver</div>
+                                                <div>Ability for learning</div>
+                                                <div>Good communicator</div>
+                                                <div>Great listener</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+                </div>
+            </section>
+        </section>
+    </div>
+</section>
+
+    <!-- Vendor -->
+    <script src="assets/vendor/jquery/jquery.js "></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.js "></script>
+    <script src="assets/vendor/nanoscroller/nanoscroller.js "></script>
+    <script src="assets/javascripts/theme.js "></script>
+    <script src="assets/vendor/jquery-browser-mobile/jquery.browser.mobile.js"></script>
+
+    <!--my js-->
+    <script src="js/index.js"></script>
+
+    <!-- Specific Page Vendor  (for circle-bar)-->
+    <script src="assets/vendor/jquery-appear/jquery.appear.js"></script>
+    <script src="assets/vendor/jquery-easypiechart/jquery.easypiechart.js"></script>
+
+    <!--Theme Custom-->
+    <script src="assets/javascripts/theme.custom.js"></script>
+
+    <!-- Theme Initialization Files -->
+    <script src="assets/javascripts/theme.init.js"></script>
+
+</body>
+
+</html>
